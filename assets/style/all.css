@@ -9071,7 +9071,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-logo a {
   font-size: 0;
-  background: url("../../../assets/images/logo-fixie.svg") no-repeat;
+  background: url("../../assets/images/logo-fixie.svg") no-repeat;
   width: 112px;
   height: 48px;
   text-indent: 101%;
