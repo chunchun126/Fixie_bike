@@ -1,0 +1,76 @@
+.banner {
+  &__txt {
+    width: 73%;
+  }
+  &__btn {
+    padding-left: 51px;
+    padding-right: 51px;
+    @include pad {
+      font-size: 16px;
+    }
+  }
+  &__title {
+    @include pad {
+      font-size: 48px;
+    }
+  }
+  &__p {
+    @include pad {
+      font-size: 16px;
+    }
+  }
+  &__item-img {
+    background: url(../../../assets/images/img1.jpg) center center / cover;
+    height: calc(100vh - 96px - 120px);
+    z-index: -1;
+  }
+  &__item-name {
+    line-height: 1;
+    @include pad {
+      line-height: 1.2;
+      font-size: 27px;
+      text-align: center;
+    }
+  }
+  &__item-link:hover, &__item-name:hover {
+    background-color: $hover;
+  }
+}
+.info {
+  padding: 96px 96px 192px 135px;
+  @include pad {
+    padding: 30px;
+  }
+  &__title {
+    @include pad {
+      font-size: 36px;
+    }
+  }
+}
+.more-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+  font-size: 0;
+  z-index: 9;
+  &-light {
+    right: -58px;
+  }
+  &-dark {
+    left: -150px;
+    // right: -150px;
+  }
+  @include mobile {
+    left: 50%;
+    transform: translateX(-50%);
+    right: initial;
+  }
+}
+.quote {
+  padding-top: 424px;
+  background: url('../../../assets/images/img4.jpg') center 30% / cover;
+  min-height: 640px;
+  background-attachment: fixed;
+}
+
+

@@ -1,0 +1,13 @@
+[data-aos='translateX-left'] {
+  transform: translateX(0px);
+  &.aos-animate {
+    transform: translateX(-40px);
+  }
+}
+
+[data-aos='translateX-right'] {
+  transform: translateX(0px);
+  &.aos-animate {
+    transform: translateX(40px);
+  }
+}
