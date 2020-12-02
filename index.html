@@ -1,10 +1,50 @@
----
-title: Fixie
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="zh-TW">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fixie</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css" integrity="sha512-glciccPoOqr5mfDGmlJ3bpbvomZmFK+5dRARpt62nZnlKwaYZSfFpFIgUoD8ujqBw4TmPa/F3TX28OctJzoLfg==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom p-0 sticky-top"
+  data-aos="fade-down" data-aos-duration="300" data-aos-once="true">
+  <div class="container-fluid">
+    <h1 class="navbar-logo m-2 m-md-4">
+      <a href="#">Fixie</a>
+    </h1>
+    <button class="navbar-toggler mr-2 mr-md-4 border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="position-relative" style="height:40px; width:40px">
+        <span class="toggler-bar toggler-bar-top"></span>
+        <span class="toggler-bar toggler-bar-middle"></span>
+        <span class="toggler-bar toggler-bar-bottom"></span>
+      </div>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold h4 px-4 py-3" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold h4 px-4 py-3" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold h4 px-4 py-3" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
 <header class="banner mb-8 mb-md-0">
   <div class="container-fluid">
     <div class="row">
@@ -154,3 +194,34 @@ current: index
     </div>
   </div>
 </section>
+  <footer class="bg-light p-0" data-aos="fade-up" data-aos-duration="200" data-aos-once="true">
+  <div class="container d-flex align-items-center px-md-4">
+    <ul class="nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold px-4 py-3" href="#">Product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold px-4 py-3" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold px-4 py-3" href="#">Contact</a>
+      </li>
+    </ul>
+    <h6 class="copyright text-secondary font-size-sm mr-auto d-none d-md-block"> &copy;2020 Fixie. All Rights Reserved.</h6>
+    <h5>
+      <a href="#" class="m-4">
+        <img src="./assets/images/logo-fixie.svg" alt="logo">
+      </a>
+    </h5>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
