@@ -9147,7 +9147,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px; } }
 
 .banner__item-img {
-  background: url(../../../assets/images/img1.jpg) center center/cover;
+  background: url("../../assets/images/img1.jpg") center center/cover;
   height: calc(100vh - 96px - 120px);
   z-index: -1; }
 
